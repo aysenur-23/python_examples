@@ -10,7 +10,7 @@ def decimal_binary_toplama(decimal):
         
         kalan = int(decimal % 2)
         binary.append(kalan)
-        decimal = decimal/2 - kalan
+        decimal = decimal//2 
         
     return binary[::-1]
 
