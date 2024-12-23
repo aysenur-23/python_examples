@@ -1,6 +1,6 @@
 
-# Onluk sayı sisteminde girdisi alınan iki sayı toplanır
-# Toplam, hazırlanan fonksiyona girdi olarak verilir ve binary'e çevrilir
+# Onluk sayi sisteminde girdisi alinan iki sayi toplanir
+# Toplam, hazirlanan fonksiyona girdi olarak verilir ve binary'e çevrilir
 
 def decimal_binary_toplama(decimal):
     
@@ -12,7 +12,7 @@ def decimal_binary_toplama(decimal):
         binary.append(kalan)
         decimal = decimal/2 - kalan
         
-    return binary
+    return binary[::-1]
 
 say1 = int(input("İlk sayıyı giriniz:"))
 say2 = int(input("İkinci sayıyı giriniz:"))
